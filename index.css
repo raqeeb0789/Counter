@@ -1,0 +1,37 @@
+#main {
+    border: 2px solid black;
+    height: 30rem; 
+    max-width: 80%; 
+    width: 30rem; 
+    display: block;
+    text-align: center;
+    margin: 5rem auto; 
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #edebeb; 
+    padding: 1rem; 
+}
+
+#text{
+    display: block;
+    text-align: center;
+    font-size: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn{
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 8px;
+    color: beige;
+    background-color: rgb(232, 108, 108);
+    transition: background-color 0.5s;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: rgb(235, 32, 32);
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
